@@ -1,0 +1,1 @@
+=IF(LEN(A2)=0,"",IF(B2<>"",-VALUE(SUBSTITUTE(B2,",","")),IF(C2<>"",VALUE(SUBSTITUTE(C2,",","")),0)))
